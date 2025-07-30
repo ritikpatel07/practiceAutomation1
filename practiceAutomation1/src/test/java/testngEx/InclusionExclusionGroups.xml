@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="1" name="Test">
+		<groups>
+			<run>
+				<include name="smoke"></include>
+				<exclude name="regression"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="testngEx.Class1" />
+			<class name="testngEx.Class2" />
+			<class name="seleniumEx.WindowHandlesDemo" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
