@@ -1,10 +1,7 @@
 package seleniumEx;
 
-import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
-
-import javax.swing.plaf.basic.BasicSplitPaneUI.KeyboardDownRightHandler;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
