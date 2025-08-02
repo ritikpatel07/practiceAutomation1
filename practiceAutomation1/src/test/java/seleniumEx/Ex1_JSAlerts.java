@@ -33,7 +33,7 @@ import dev.failsafe.internal.util.Durations;
  * 3. Screenshot Demo
  * 4. Browser Navigation back & forth 
  */
-public class Exercise1 {
+public class Ex1_JSAlerts {
 
 	@Test
 	public void typesOfBrowserAlert() throws InterruptedException {

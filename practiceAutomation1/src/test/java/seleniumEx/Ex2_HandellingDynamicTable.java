@@ -15,7 +15,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class Exercise2 {
+public class Ex2_HandellingDynamicTable {
 	@Test
 	public void handlingDynamicTable(){
 		WebDriver driver = new ChromeDriver();

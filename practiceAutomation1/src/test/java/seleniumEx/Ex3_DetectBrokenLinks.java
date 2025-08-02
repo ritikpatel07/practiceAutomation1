@@ -15,7 +15,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class Exercise3 {
+public class Ex3_DetectBrokenLinks {
 	
 	@Test
 	public void detectBrokenLinksOnPage()
