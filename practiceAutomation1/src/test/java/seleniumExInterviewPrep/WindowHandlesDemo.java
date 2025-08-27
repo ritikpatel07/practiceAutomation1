@@ -1,4 +1,4 @@
-package seleniumEx;
+package seleniumExInterviewPrep;
 
 import java.util.Iterator;
 import java.util.Set;

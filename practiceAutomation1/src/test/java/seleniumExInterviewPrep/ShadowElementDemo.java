@@ -1,4 +1,4 @@
-package seleniumEx;
+package seleniumExInterviewPrep;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.SearchContext;
