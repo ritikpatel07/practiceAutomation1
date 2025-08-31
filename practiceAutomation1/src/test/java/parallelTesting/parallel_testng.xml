@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite Parallel Runs">
+	<test thread-count="2" parallel="methods" name="Parallel Test- 1">
+		<classes>
+			<class name="parallelTesting.ThreadSafeTests">
+				<methods>
+					<include name="test1" />
+					<include name="test2" />
+					<include name="test3" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test thread-count="2" parallel="methods" name="Parallel Test- 2">
+		<classes>
+			<class name="parallelTesting.ThreadSafeTests">
+				<methods>
+					<include name="test1" />
+					<include name="test2" />
+					<include name="test3" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
