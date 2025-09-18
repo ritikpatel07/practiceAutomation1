@@ -11,7 +11,7 @@
 		<classes>
 			<class name="testngEx.Class1" />
 			<class name="testngEx.Class2" />
-			<class name="seleniumEx.WindowHandlesDemo" />
+			<class name="seleniumExInterviewPrep.WindowHandlesDemo" />
 		</classes>
 	</test> <!--
 	Test -->
